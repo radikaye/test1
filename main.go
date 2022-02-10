@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// n := 15
 
@@ -44,5 +46,5 @@ func palindrom(data int) {
 	// 	// index berisi angka asli dan data berisi angka yg dibalik
 	// 	x[data[y]] = data[y]
 	// }
-
+	fmt.Println(data)
 }
