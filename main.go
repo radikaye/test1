@@ -24,6 +24,8 @@ func main() {
 	palindrom(test1)
 	palindrom(test2)
 	palindrom(test3)
+	palindrom(test3)
+	palindrom(test3)
 
 }
 
