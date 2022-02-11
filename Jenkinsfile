@@ -5,6 +5,8 @@ pipeline {
       steps {
         sh 'node --version'
       }
+    }
+    stage('build-2') {
       steps {
         sh 'go version'
       }
