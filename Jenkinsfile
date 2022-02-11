@@ -17,7 +17,7 @@ def notify(identifier, message) {
     }
 
     slackSend (
-        channel: "#${SLACK_CHANNEL_DEMO-JENKINS_NOTIFICATION}",
+        channel: "#${SLACK_CHANNEL}",
         color: colorCode,
         message: message,
         tokenCredentialId: "${SLACK_TOKEN_ID}"
