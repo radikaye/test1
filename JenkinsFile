@@ -1,17 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage("Checkout code") {
+        stage('build') {
             steps {
-                checkout scm
+                sh 'node --version'
+                sh 'go version'
             }
         }
-        stage("Done") {
-            steps {
-                scripts {
-                    echo "done"
-                }
-            }
-        }
+    }
     }
 }
